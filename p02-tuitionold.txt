@@ -1,0 +1,5 @@
+1384349045225   Szyslak      Moe           5700.00
+3873472785863   Simpson      Lisa         14875.00
+4834324308675   Jetson       George        8525.00
+5627238253456   Flanders     Ned           2925.00
+8230123345450   Flintstone   Fred          7575.00

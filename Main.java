@@ -2,10 +2,7 @@
 // CLASS: Main
 //
 // DESCRIPTION
-// The Main class for Project 2.
-//
-// COURSE AND PROJECT INFO
-//CSE205 Object Oriented Programming and Data Structures, Fall 2019
+// The Main class for student tuition calculator.
 //
 // AUTHOR
 // Ian Skelskey, iskelske, ianskelskey@gmail.com
@@ -32,19 +29,19 @@ public class Main {
       infile = new Scanner(new File("p02-students.txt"));
       while (infile.hasNext()) {
         String type = infile.next();
-        if (type.equals("C")) {
-          OnCampusStudent ocs = new OnCampusStudent(infile.next(), infile.next(), infile.next());
-          ocs.setResidency(infile.next().equals("R"));
-          ocs.setProgramFee(infile.nextDouble());
+        if (type.equals("C")) { //is on campus student
+          OnCampusStudent ocs = new OnCampusStudent(infile.next(), infile.next(), infile.next()); //create an on campus student object called ocs and sets ID, first name, and last name
+          ocs.setResidency(infile.next().equals("R")); //ocs is resident 
+          ocs.setProgramFee(infile.nextDouble()); //stores student ID
           ocs.setCredits(infile.nextInt());
-          ocs.calcTuition();
-          studentList.add(ocs);
-        } else if (type.equals("O")) {
-          OnlineStudent ols = new OnlineStudent(infile.next(), infile.next(), infile.next());
+          ocs.calcTuition(); //calculates tuition. function defined in OnCampusStudent.java
+          studentList.add(ocs); //adds student to array
+        } else if (type.equals("O")) { //is online student
+          OnlineStudent ols = new OnlineStudent(infile.next(), infile.next(), infile.next());//create an online student object called ocs and sets ID, first name, and last name
           ols.setTechFee(infile.next().equals("T"));
           ols.setCredits(infile.nextInt());
-          ols.calcTuition();
-          studentList.add(ols);
+          ols.calcTuition(); //calculates tuition. function defined in OnlineStudent.java
+          studentList.add(ols);//adds student to array
         }
       }
       infile.close();

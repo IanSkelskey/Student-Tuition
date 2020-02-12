@@ -28,6 +28,7 @@ public class OnlineStudent extends Student {
     mTechFee = pTechFee;
   }
 
+@Override
   public void calcTuition() {
     double tempTuition = 0;
     tempTuition = getCredits() * TuitionConstants.ONLINE_CREDIT_RATE;
