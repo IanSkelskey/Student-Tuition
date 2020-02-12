@@ -4,9 +4,6 @@
 // DESCRIPTION
 // Sorts students based on input file.
 //
-// COURSE AND PROJECT INFO
-//CSE205 Object Oriented Programming and Data Structures, Fall 2019
-//
 // AUTHOR
 // Ian Skelskey, iskelske, ianskelskey@gmail.com
 // 

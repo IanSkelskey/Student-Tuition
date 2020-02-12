@@ -5,9 +5,6 @@
 // Constants that are used in calculating the tuition for on-campus and online students. Use these
 // constants in the OnCampusStudent and OnlineStudent classes.
 //
-// COURSE AND PROJECT INFO
-//CSE205 Object Oriented Programming and Data Structures, Fall 2019
-//
 // AUTHOR
 // Ian Skelskey, iskelske, ianskelskey@gmail.com
 // 

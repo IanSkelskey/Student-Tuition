@@ -6,9 +6,6 @@
 // classes. Remember that in a class hierarchy, the superclass declares data and methods that are
 // common to all types of students.
 //
-// COURSE AND PROJECT INFO
-// CSE205 Object Oriented Programming and Data Structures, Fall 2019
-//
 // AUTHOR
 // Ian Skelskey, iskelske, ianskelskey@gmail.com
 // 
